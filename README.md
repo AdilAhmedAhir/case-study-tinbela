@@ -2,14 +2,6 @@
 
 > **Architecture case study.** Source code is private and owned by the client. This repository contains original documentation only: no client code, data, credentials or assets.
 
-## Problem
-
-Companies and individuals wanted reliable daily meals on subscription, with company-level billing for corporate customers and simple ordering for employees.
-
-## Solution
-
-A web platform for subscriptions, menus and operations, plus a React Native customer app with a postpaid wallet, both on one Supabase backend.
-
 ## Architecture
 
 ```mermaid
@@ -22,6 +14,14 @@ flowchart LR
   WEB --> OBJ[(Object storage)]
   OPS[Operations team] --> WEB
 ```
+
+## Problem
+
+Companies and individuals wanted reliable daily meals on subscription, with company-level billing for corporate customers and simple ordering for employees.
+
+## Solution
+
+A web platform for subscriptions, menus and operations, plus a React Native customer app with a postpaid wallet, both on one Supabase backend.
 
 ## Modules
 
